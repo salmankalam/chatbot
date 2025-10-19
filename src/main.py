@@ -57,7 +57,7 @@ CONFIG_FILE_PATH = FixConfigPath()
 app = FastAPI()
 
 origins = [
-    "https://chatbot-j7bg.onrender.com",  # your production frontend
+    "https://forecast-x.vercel.app",  # your production frontend
 ]
 
 # Add CORS middleware to allow all origins, credentials, methods, and headers.
