@@ -98,6 +98,11 @@ class MessageChatGPT(BaseModel):
 #####              ChatGPT              #####
 ####                                     ####
 
+@app.get("/")
+async def root():
+    return {"message": "SourceryAI Bot is running!"}
+
+
 
 async def getGPTData(chat: Chatbot, message: Message):
     """Gets response data from ChatGPT API.
