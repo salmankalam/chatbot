@@ -59,7 +59,7 @@ app = FastAPI()
 # Add CORS middleware to allow all origins, credentials, methods, and headers.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://chatbot-j7bg.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
