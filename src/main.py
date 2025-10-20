@@ -58,6 +58,8 @@ app = FastAPI()
 
 origins = [
     "https://forecast-x.vercel.app",  # your production frontend
+    "http://forecast-x.vercel.app",
+    "https://www.forecast-x.vercel.app",
 ]
 
 # Add CORS middleware to allow all origins, credentials, methods, and headers.
